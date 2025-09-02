@@ -1121,8 +1121,8 @@ dragPos:
   "'admon'": 55,300,287,106
 ---
 
-<Admonition title="V-draggable" color='teal-light' width="300px" v-drag="[93,303,300,145,-14]">
-If you want to `v-drag` an admonition, you should set the width to a fixed value.
+<Admonition title="draggable admonition" color='teal-light' width="300px" v-drag="[93,303,300,145,-14]">
+If you want to drag an admonition, you should set the width to a fixed value.
 </Admonition>
 
 :: title ::
