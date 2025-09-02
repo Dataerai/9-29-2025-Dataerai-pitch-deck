@@ -24,11 +24,11 @@ theme: neversink
 
 ## Features
 
-- [Color schemes](/docs/colors.md) - the color schemes available in Neversink
-- [Custom layouts](/docs/layouts.md) - the custom slide layouts available in Neversink
-- [Branding](/docs/branding.md) - how to customize the theme to your brand/logos
-- [Components](/docs/components.md) - the custom components such as sticky notes and admonitions
-- [Markdown features](/docs/markdown.md) - special addons to the Slidev markdown syntax
+- [Color schemes](https://gureckis.github.io/slidev-theme-neversink/colors) - the color schemes available in Neversink
+- [Custom layouts](https://gureckis.github.io/slidev-theme-neversink/layouts) - the custom slide layouts available in Neversink
+- [Branding](https://gureckis.github.io/slidev-theme-neversink/branding) - how to customize the theme to your brand/logos
+- [Components](https://gureckis.github.io/slidev-theme-neversink/components) - the custom components such as sticky notes and admonitions
+- [Markdown features](https://gureckis.github.io/slidev-theme-neversink/markdown) - special addons to the Slidev markdown syntax
 
 ## Examples
 
