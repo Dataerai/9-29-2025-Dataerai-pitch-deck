@@ -19,10 +19,9 @@ The `StickyNote` component is used to create a colored box with an title and con
 
 Example:
 
-```md
+```vue
 <StickyNote color="amber-light" textAlign="left" width="180px" title="Title">
-
-Hello, I'm a **sticky note**.
+  Hello, I'm a **sticky note**.
 </StickyNote>
 ```
 
@@ -53,7 +52,7 @@ This content has custom styling applied.
 
 If you want to position it somewhere arbitrary on the slide add v-drag to the admonition and also set the width to something fixed (e.g., `300px`):
 
-```md
+```vue
 <StickyNote color="amber-light" textAlign="left" width="180px" title="Title" v-drag>
 
 Hello, I'm a **sticky note**.
@@ -62,10 +61,9 @@ Hello, I'm a **sticky note**.
 
 Another color:
 
-```md
+```vue
 <StickyNote color="pink-light" textAlign="left" width="180px" title="Title">
-
-Hello, I'm a **sticky note**.
+  Hello, I'm a **sticky note**.
 </StickyNote>
 ```
 

@@ -20,8 +20,8 @@ The `SpeechBubble` component is used to create a colored bubble with a speech bu
 
 Example:
 
-```md
-<SpeechBubble position="r" color='sky' shape="round" maxWidth="300px">
+```vue
+<SpeechBubble position="r" color="sky" shape="round" maxWidth="300px">
 
 Hello, I'm a **speech bubble**! I'm a longer speech bubble. I'm still going.
 </SpeechBubble>
@@ -33,8 +33,8 @@ Renders as:
 Hello, I'm a **speech bubble**! I'm a longer speech bubble. I'm still going.
 </SpeechBubble>
 
-```md
-<SpeechBubble position="b" color='sky' shape="round" maxWidth="300px">
+```vue
+<SpeechBubble position="b" color="sky" shape="round" maxWidth="300px">
 
 Hello, I'm a **speech bubble**! I'm a longer speech bubble. I'm still going.
 </SpeechBubble>
@@ -46,8 +46,8 @@ Renders as:
 Hello, I'm a **speech bubble**! I'm a longer speech bubble. I'm still going.
 </SpeechBubble>
 
-```md
-<SpeechBubble position="t" color='amber' shape="round" maxWidth="300px">
+```vue
+<SpeechBubble position="t" color="amber" shape="round" maxWidth="300px">
 
 Hello, I'm a **speech bubble**! I'm a longer speech bubble. I'm still going.
 </SpeechBubble>
@@ -61,8 +61,8 @@ Hello, I'm a **speech bubble**! I'm a longer speech bubble. I'm still going.
 
 If you want to position it somewhere arbitrary on the slide add v-drag to the admonition and also set the maxWidth to something fixed (e.g., `300px`):
 
-```md
-<SpeechBubble position="t" color='sky' shape="round" maxWidth="300px" v-drag>
+```vue
+<SpeechBubble position="t" color="sky" shape="round" maxWidth="300px" v-drag>
 
 Hello, I'm a **speech bubble**! I'm a longer speech bubble. I'm still going.
 </SpeechBubble>

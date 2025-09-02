@@ -21,8 +21,8 @@ The `Admonition` component is used to create a colored box with an icon and a ti
 
 Example:
 
-```md
-<Admonition title="Info" color='teal-light' width="300px">
+```vue
+<Admonition title="Info" color="teal-light" width="300px">
 This is my admonition content.
 </Admonition>
 ```
@@ -47,8 +47,8 @@ This content has custom styling applied.
 
 If you want to position it somewhere arbitrary on the slide add v-drag to the admonition and also set the width to something fixed (e.g., `300px`):
 
-```md
-<Admonition title="V-draggable" color='teal-light' width="300px" v-drag>
+```vue
+<Admonition title="V-draggable" color="teal-light" width="300px" v-drag>
 This is my admonition content.
 </Admonition>
 ```
@@ -62,7 +62,7 @@ The `AdmonitionType` component is used to create a colored box with an icon and 
 
 Example:
 
-```md
+```vue
 <AdmonitionType type="info" width="300px">
 This is my info
 </AdmonitionType>
@@ -72,7 +72,7 @@ This is my info
 This is my warning
 </AdmonitionType>
 
-```md
+```vue
 <AdmonitionType type="important" width="300px">
 This is my important
 </AdmonitionType>
@@ -82,7 +82,7 @@ This is my important
 This is my important
 </AdmonitionType>
 
-```md
+```vue
 <AdmonitionType type="tip" width="300px">
 This is my tip
 </AdmonitionType>
@@ -92,7 +92,7 @@ This is my tip
 This is my tip
 </AdmonitionType>
 
-```md
+```vue
 <AdmonitionType type="warning" width="300px">
 This is mywarning
 </AdmonitionType>
@@ -102,7 +102,7 @@ This is mywarning
 This is my  warning
 </AdmonitionType>
 
-```md
+```vue
 <AdmonitionType type="caution" width="300px">
 This is my caution
 </AdmonitionType>
@@ -114,7 +114,7 @@ This is my caution
 
 If you want to position it somewhere arbitrary on the slide add v-drag to the admonition and also set the width to something fixed (e.g., `300px`)
 
-```md
+```vue
 <AdmonitionType type="warning" width="300px" v-drag>
 This is my my warning
 </Admonition>

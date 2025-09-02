@@ -16,8 +16,8 @@ The `Qr` component is used to create QR code in SVG format. The QRCode component
 
 Example:
 
-```md
-<QRCode value="https://sli.dev" :size="200" render-as="svg"/>
+```vue
+<QRCode value="https://sli.dev" :size="200" render-as="svg" />
 ```
 
 Renders as:

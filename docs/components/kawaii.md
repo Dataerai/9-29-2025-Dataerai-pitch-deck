@@ -18,7 +18,7 @@ The character options are `IceCream`, `Backpack`, `Cat`, `Browser`, `Mug`, `Plan
 
 Example:
 
-```md
+```vue
 <IceCream :size="140" mood="sad" color="#FDA7DC" />
 ```
 

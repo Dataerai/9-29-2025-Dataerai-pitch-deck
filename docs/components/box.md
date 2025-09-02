@@ -13,7 +13,7 @@ The `Box` component is used to just draw a rectangle. It has the following props
 - `color` (optional) the color of the shape. It uses the color schemes in the theme. The default is 'white' (which means a black border and white fill).
 - `custom` (optional) any custom classes you want to add to the box. The default is none. For example, opacity only applies to the fill not the border but you can change that using `custom` classes.
 
-```md
+```vue
 <Box v-drag />
 ```
 
@@ -25,29 +25,29 @@ well a box, what did you expect.
 
 But of course you can customise it:
 
-```md
-<Box shape='r-d-8-0' width='200px' custom='m-10 ' />
+```vue
+<Box shape="r-d-8-0" width="200px" custom="m-10 " />
 ```
 
 <Box shape='r-d-8-0' width='200px' custom='m-10 ' />
 
-```md
-<Box shape='f-o-5-0' color='sky-light' custom='m-10' />
+```vue
+<Box shape="f-o-5-0" color="sky-light" custom="m-10" />
 ```
 
 <Box shape='f-o-5-0' color='sky-light' custom='m-10' />
 
 more transparent:
 
-```md
-<Box shape='f-o-5-75' color='sky-light' custom='m-10' />
+```vue
+<Box shape="f-o-5-75" color="sky-light" custom="m-10" />
 ```
 
 <Box shape='f-o-5-75' color='sky-light' custom='m-10' />
 
 If can include text as well using a slot
 
-```md
+```vue
 <Box>Hi there</Box>
 ```
 
@@ -57,8 +57,8 @@ renders as:
 
 You might like to syle it a bit
 
-```md
-<Box custom='pt-10'>Hi there</Box>
+```vue
+<Box custom="pt-10">Hi there</Box>
 ```
 
 <Box custom='p-10'>Hi there</Box>

@@ -12,24 +12,24 @@ The Thumbs component has the following props:
 - `color` (optional) the color scheme of the thumb. the default is 'white'. The best options tend to be the light colors (e.g., `green-light`, `red-light`, `blue-light`)
 - `width` (optional) the initial width of the image. Default is 140px
 
-```md
-<Thumb color='green-light' width="300px" v-drag />
+```vue
+<Thumb color="green-light" width="300px" v-drag />
 ```
 
 Renders as:
 
 <Thumb color='green-light' width="300px"/>
 
-```md
-<Thumb color="sky-light"  v-drag />
+```vue
+<Thumb color="sky-light" v-drag />
 ```
 
 Renders as:
 
 <Thumb color="sky-light" />
 
-```md
-<Thumb color="red-light" dir='down' v-drag />
+```vue
+<Thumb color="red-light" dir="down" v-drag />
 ```
 
 Renders as:

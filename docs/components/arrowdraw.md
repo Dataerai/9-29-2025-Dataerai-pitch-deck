@@ -12,8 +12,8 @@ changed according to the [color schemes](/colors) in the theme. The ArrowDraw co
 - `color` (optional) the color of the arrow stroke. Colors are from the themes. The background color is applied as the stroke so `red` is red, `black` is black. Default is 'black'.
 - width (optional) the initial width of the image. Default is 140px
 
-```md
-<ArrowDraw color='red' v-drag/>
+```vue
+<ArrowDraw color="red" v-drag />
 ```
 
 Renders as:

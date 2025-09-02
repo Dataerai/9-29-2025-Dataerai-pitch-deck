@@ -10,7 +10,7 @@ The `Email` component formats a email address on (usually) title slides
 
 - `v` (required). The email address
 
-```md
+```vue
 <Email v="todd.gureckis@nyu.edu" />
 ```
 
