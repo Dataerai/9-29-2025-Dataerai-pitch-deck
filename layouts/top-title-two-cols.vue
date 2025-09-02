@@ -74,7 +74,7 @@ const colorscheme = computed(() => {
           </div>
         </div>
       </div>
-      <div v-if="$slots.default" class="h-fit w-full">
+      <div v-if="$slots.default" class="slidev-layout default h-fit w-full">
         <slot name="default" />
       </div>
     </div>
