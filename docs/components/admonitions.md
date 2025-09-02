@@ -16,6 +16,8 @@ The `Admonition` component is used to create a colored box with an icon and a ti
 - `color` (optional) can be any of the [color scheme](/colors) options. If not provided, the default color is `amber-light`.
 - `width` (optional) the width of the admonition. Default is `100%`.
 - `icon` (optional) the icon to display. Default is `mdi-information-variant-circle-outline`.
+- `custom` (optional) a custom CSS class to apply to the admonition content. Default is empty.
+- `customTitle` (optional) a custom CSS class to apply to the admonition title. Default is empty.
 
 Example:
 
@@ -28,6 +30,19 @@ This is my admonition content.
 Renders as:
 <Admonition title="Info" color='teal-light' width="300px">
 This is my admonition content.
+</Admonition>
+
+You can also add custom CSS classes to style the admonition content and title:
+
+```vue
+<Admonition title="Custom Styled" color="purple-light" custom="text-lg font-bold" customTitle="text-red-500">
+This content has custom styling applied.
+</Admonition>
+```
+
+Renders as:
+<Admonition title="Custom Styled" color='purple-light' custom="text-lg font-bold" customTitle="text-red-500">
+This content has custom styling applied.
 </Admonition>
 
 If you want to position it somewhere arbitrary on the slide add v-drag to the admonition and also set the width to something fixed (e.g., `300px`):

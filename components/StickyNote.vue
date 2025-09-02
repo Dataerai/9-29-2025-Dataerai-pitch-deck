@@ -18,6 +18,16 @@ const props = defineProps({
     type: String,
     default: '',
   },
+  custom: {
+    // add a custom class if you want
+    type: String,
+    default: '',
+  },
+  customTitle: {
+    // add a custom class if you want
+    type: String,
+    default: 'block text-xs font-mono tracking-normal font-bold',
+  },
 })
 
 const colorscheme = computed(() => {
@@ -40,9 +50,9 @@ const stickyStyles = computed(() => ({
 <template>
   <div :class="stickyClasses" :style="stickyStyles">
     <template v-if="props.title !== ''"
-      ><strong>{{ props.title }}</strong></template
+      ><span :class="props.customTitle">{{ props.title }}</span></template
     >
-    <slot></slot>
+    <div :class="props.custom"><slot></slot></div>
   </div>
 </template>
 
@@ -60,12 +70,5 @@ const stickyStyles = computed(() => ({
   font-size: 0.8rem;
   color: var(--text-color);
   border: 0.4px solid var(--border-color);
-}
-.sticky-note strong {
-  display: block;
-  font-size: 0.8rem;
-  font-family: monospace;
-  letter-spacing: 0em;
-  word-spacing: -0.3em;
 }
 </style>

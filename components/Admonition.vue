@@ -18,6 +18,16 @@ const props = defineProps({
     type: String,
     default: '100%',
   },
+  custom: {
+    // add a custom class if you want
+    type: String,
+    default: '',
+  },
+  customTitle: {
+    // add a custom class if you want
+    type: String,
+    default: '',
+  },
 })
 
 const colorscheme = computed(() => {
@@ -27,10 +37,10 @@ const colorscheme = computed(() => {
 
 <template>
   <div class="markdown-alert markdown-alert-custom" :class="colorscheme">
-    <p class="markdown-alert-title-custom">
-      <span class="font-size-1.3rem"><Icon :icon="props.icon" /></span>&nbsp;&nbsp;{{ props.title }}
+    <p class="markdown-alert-title-custom" :class="props.customTitle">
+      <span :class="`[font-size-1.3rem, customTitle]`"><Icon :icon="props.icon" /></span>&nbsp;&nbsp;{{ props.title }}
     </p>
-    <p><slot></slot></p>
+    <p :class="props.custom"><slot></slot></p>
   </div>
 </template>
 

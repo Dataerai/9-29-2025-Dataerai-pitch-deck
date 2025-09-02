@@ -1160,7 +1160,7 @@ This is a tip
 This is a tip
 </AdmonitionType>
 
-<AdmonitionType type='caution' >
+<AdmonitionType type='caution' custom="text-lg" customTitle="font-size-6">
 This is warning text
 </AdmonitionType>
 
@@ -1204,14 +1204,27 @@ title: Sticky Notes
 Hello, I'm a **sticky note**.
 </StickyNote>
 
-<StickyNote color="sky-light" textAlign="left" width="180px" title="This is my title" v-drag="[375,306,180,180,-15]">
+<StickyNote color="sky-light" textAlign="left" width="180px" title="This is my title" v-drag="[304,295,180,180,-15]">
 
 Hello, I'm also a **sticky note** but am blue sky title.
 </StickyNote>
 
-<StickyNote color="pink-light" textAlign="left" width="180px"  v-drag="[667,299,185,171,8]">
+<StickyNote color="pink-light" textAlign="left" width="180px"  v-drag="[549,292,185,171,8]">
 
 Hello, I'm also a **sticky note** but I lack a title.
+</StickyNote>
+
+
+<StickyNote color="pink-light" textAlign="left" width="180px"  v-drag="[549,292,185,171,8]">
+
+Hello, I'm also a **sticky note** but I lack a title.
+</StickyNote>
+
+<StickyNote color="emerald-light" textAlign="left" width="180px" title="This is my
+title" customTitle="font-size-6" custom="font-size-2"
+v-drag="[749,292,185,171,-8]">
+
+Hello, I'm also a **sticky note** but I'm customized with a title and a custom class.
 </StickyNote>
 
 # Sticky Notes
