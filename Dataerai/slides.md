@@ -22,12 +22,13 @@ transition: slide-left
 mdc: true
 ---
 
-# Welcome to Slidev
+# Dataerai
 
-Presentation slides for developers
+<!-- Guarding Knowledge. Enabling Trust. Unlocking Innovation. -->
+The commune where research data fuels breakthroughs.
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
+<div @click="$slidev.nav.next" class="mt-10 py-1 text-sm" hover:bg="white op-10">
+  Explore the <code>space</code> of Dataerai <carbon:arrow-right />
 </div>
 
 <div class="abs-br m-6 text-xl">
