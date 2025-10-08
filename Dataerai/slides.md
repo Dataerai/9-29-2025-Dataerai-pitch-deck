@@ -25,6 +25,7 @@ mdc: true
 # Dataerai
 
 <!-- Guarding Knowledge. Enabling Trust. Unlocking Innovation. -->
+
 The commune where research data fuels breakthroughs.
 
 <div @click="$slidev.nav.next" class="mt-10 py-1 text-sm" hover:bg="white op-10">
@@ -48,15 +49,13 @@ The last comment block of each slide will be treated as slide notes. It will be 
 layout: two-cols-title
 ---
 
-<div class="emphasis">We turn regulatory lift into an AI elevator.**</div>
+<div class="emphasis">We turn regulatory lift into an AI elevator.</div>
 
 ::title::
 # Traction
 
 ::left::
-
 ## Regulatory Tailwinds
-
 - **Mandates are here:** NIH DMS (2023) + OSTP (2022→2025) push open, preserved, AI-ready data.
 - **Risk is rising:** AI agents are increasingly being used to detect errors and fraud in R&D data.
 - **Funding aligns:** Data availability is now a funding criterion—turn compliance into a grant advantage.
@@ -66,7 +65,6 @@ layout: two-cols-title
 ::right::
 
 ## Early Signals
-
 - Major funding agencies — NSF, NIH, DARPA, DOE, and DoD — are all launching initiatives to strengthen research data management and sharing requirements.
 - Collaborators at Stanford, the University of Washington, UC Berkeley, Fermi Lab, Oak Ridge National Laboratory, and others have adopted **DataFed**, the open-source foundation of **Dataerai**.
 - Over **300 active users** currently rely on this software stack. However, the existing open-source implementation demands custom hardware builds and extensive policy development — a heavy lift for understaffed IT teams often at odds with researchers.
@@ -169,12 +167,50 @@ Financial records, supporting documents, statistical records, and all other reco
   </ul>
 </a>
 
+---
+layout: ncolumns
+titleText: "DataFed Infrastructure"
+columns: 2
+images:
+- facilities/lehigh-cluster.png
+- null
+  titles:
+- null
+- "Ideal Computational Infrastructure"
+  titleClicks: [0, 1]
+  columnWidths: [1.5, 2]
+  textboxHeight: 0
+  mainHeight: 75
+---
 
+<template #col0>
+**DataFed** is a federated research data management platform.
+</template>
 
+<template #col1>
+
+<div v-click="1"  class="flex flex-col h-full">
+  <div v-click="1" class="text-left gap-4 flex-1">
+    <ul class="list-disc pl-4">
+      <li>Distributed storage across facilities</li> 
+      <li>At least moderate performance</li>
+      <li>Globus Connect Server</li>
+      <li>Open ports 50000-51000</li>
+    </ul>
+  </div>
+  <div v-click="2" class="flex-1 flex justify-center items-center">
+    <div class="flex flex-col items-center">
+      <img src="" class="h-[100px] object-contain" alt="Lehigh Cluster" />
+      <h3>StorJ</h3>
+    </div>
+  </div>
+</div>
+
+</template>
 
 <style>
 ul li {
-  line-height: 1.1;
+  line-height: .9;
   margin-bottom: 0.2em;  /* Remove margin at the bottom of list items */
   padding-bottom: 0.2em;  /* Remove padding at the bottom of list items */
 }
