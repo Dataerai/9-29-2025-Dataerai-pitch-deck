@@ -77,7 +77,6 @@ side: l
 color: violet
 titlewidth: is-4
 align: rm-lm
-title: Side Title Layout (Another)
 ---
 
 :: title ::
@@ -99,7 +98,7 @@ title: Side Title Layout (Another)
 
 ## Data Sharing
 
-<a href="https://www.nsf.gov/funding/data-management-plan" target="_blank" rel="noopener" style="display: inline-block; padding: 0.5em 1.2em; background: #8b5cf6; color: #ede9fe; border-radius: 0.4em; text-decoration: none; font-weight: bold; margin: 0.5em 0;">
+<a href="https://www.nsf.gov/funding/data-management-plan" target="_blank" rel="noopener" style="display: inline-block; padding: 0.5em 1.2em; background: #8b5cf6; color: #ede9fe; border-radius: 0.4em; text-decoration: none; margin: 0.5em 0;">
   NSF-funded investigators are expected to share with other researchers, at no more than incremental cost and within a reasonable time, the primary data, samples, physical collections and other supporting materials created or gathered in the course of work under NSF awards.
 </a>
 
@@ -109,7 +108,6 @@ side: l
 color: emerald
 titlewidth: is-4
 align: rm-lm
-title: Side Title Layout (Another)
 ---
 
 :: title ::
@@ -123,12 +121,55 @@ title: Side Title Layout (Another)
 
 :: content ::
 
-<div style="display: inline-block; padding: 0.5em 1.2em; background: #10b981; color: #ecfdf5; border-radius: 0.4em; text-decoration: none; font-weight: bold; margin: 0.5em 0;">
-  <b>Data Sharing</b>
-  <a href="https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/policy-overview" target="_blank" rel="noopener" style="color: #fff; text-decoration: none;">
-    NIH expects that data be made as widely and freely available as possible while safeguarding the privacy of participants and protecting confidential and proprietary data. Sharing is particularly important for unique data that cannot be readily replicated.
-  </a>
+## Data Retention
+
+<a href="https://grants.nih.gov/grants/policy/nihgps/html5/section_8/8.4.2_record_retention_and_access.htm" target="_blank" rel="noopener" style="display: inline-block; padding: 0.5em 1.2em; background: #10b981; color: #f0fdf4; border-radius: 0.4em; text-decoration: none; margin: 0.5em 0;">
+Recipients generally must retain financial and programmatic records, supporting documents, statistical records, and all other records that are required by the terms of a grant, or may reasonably be considered pertinent to a grant, for a period of 3 years from the date the annual FFR is submitted.
+</a>
+
+## Data Sharing
+
+<a href="https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/policy-overview" target="_blank" rel="noopener" style="display: inline-block; padding: 0.5em 1.2em; background: #10b981; color: #f0fdf4; border-radius: 0.4em; text-decoration: none; margin: 0.5em 0;">
+  NIH expects that data be made as widely and freely available as possible while safeguarding the privacy of participants and protecting confidential and proprietary data. Sharing is particularly important for unique data that cannot be readily replicated.
+</a>
+
+---
+layout: side-title
+side: l
+color: indigo
+titlewidth: is-4
+align: rm-lm
+title: Side Title Layout (Another)
+---
+
+:: title ::
+
+# `Department of Energy`
+<div class="flex justify-center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Seal_of_the_Department_of_Energy.svg" alt="DOE Logo" style="height: 80px; margin-bottom: 1rem;" />
 </div>
+
+# <mdi-arrow-right />
+
+:: content ::
+
+## Data Retention
+
+<a href="https://www.law.cornell.edu/cfr/text/10/600.153#:~:text=10%20CFR%20%C2%A7%20600.153%20sets%20forth%20requirements,requirement%20does%20not%20apply%20to%20the%20recipient." target="_blank" rel="noopener" style="display: inline-block; padding: 0.5em 1.2em; background: #6366f1; color: #f0fdf4; border-radius: 0.4em; text-decoration: none; margin: 0.5em 0;">
+Financial records, supporting documents, statistical records, and all other records pertinent to an award shall be retained for a period of three years from the date of submission of the final expenditure report or, for awards that are renewed quarterly or annually, from the date of the submission of the quarterly or annual financial report, as authorized by DOE. 
+</a>
+
+## Data Sharing
+
+<a href="https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/policy-overview" target="_blank" rel="noopener" style="display: inline-block; padding: 0.5em 1.2em; background: #6366f1; color: #f0fdf4; border-radius: 0.4em; text-decoration: none; margin: 0.5em 0;">
+  <ul>
+    <li>Provide free, immediate access to peer-reviewed, scholarly publications</li>
+    <li>Provide immediate access to scientific data displayed in or underlying publications and increased access to other data</li>
+    <li>Use persistent identifiers (PIDs) for research outputs, researchers, organizations, and awards</li>
+  </ul>
+</a>
+
+
 
 
 <style>
